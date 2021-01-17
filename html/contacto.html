@@ -12,6 +12,19 @@
   <link href="../CSS/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
+  <div class="spinner-layer spinner-red">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div>
+    <div class="gap-patch">
+      <div class="circle"></div>
+    </div>
+    <div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+
   <nav class="purple nav-wrapper" role="navigation">
     <div>
     <div class="nav-wrapper container">
@@ -33,25 +46,65 @@
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-    <div class="col s6">
-      <h1 class="center"><img src="../Imagenes/perfil.jpeg" alt="perfil" class="circle" width="250px" height="250px"></a>
-      <h4 class="center">Daniel Peralta</h4>
-      <p class="center">
-        Fundador de Perspective, actualmente estudiante de la carrera de Ingeniería en Ciencias de la Computación en
-        la Universidad Politécnica Salesiana.
-      </p>
-      <h5 class="center">Destrezas</h5>
-      <p class="center">QA tester de videojuegos. </p>
-      <p class="center">Aprendiendo sobre Game Design, Marketing de videojuegos, UX/UI, Modelado 3D, Animcación 2D/3D.</p>
-      <p class="center">Desarrollador de videojuegos.</p>
-    </div>
-    <div class="col s6">
+  <div class="row">
+    <br/>
+    <div class="container blue-grey lighten-5">
+      <div class="col s12 m6">
+        <h1 class="center"><img src="../Imagenes/perfil.jpeg" alt="perfil" class="circle" width="250px" height="250px"></a>
+        <h4 class="center-align">Daniel Peralta</h4>
+        <p class="center-align">
+          Fundador de Perspective, actualmente estudiante de la carrera de Ingeniería en Ciencias de la Computación en
+          la Universidad Politécnica Salesiana.
+        </p>
+        <h5 class="center-align">Destrezas</h5>
+        <p class="center-align">QA tester de videojuegos. </p>
+        <p class="center-align">Aprendiendo sobre Game Design, Marketing de videojuegos, UX/UI, Modelado 3D, Animcación 2D/3D.</p>
+        <p class="center-align">Desarrollador de videojuegos.</p>
+      </div>
 
-      <br>
-      <h3>Contáctame</h3>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeX64aBzBl-0xpkP391ck-ZK-TPMsKEU2sLOaPvuIcJe0FQPQ/viewform?embedded=true" width="640" height="990" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    <div class="row">
+      <div class="col s12 m6">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h3>Contáctame</h3>
+        <p>Escribe tu nombre, correo y un mensaje sobre tu proyecto y cómo te puedo ayudar.</p>
+        <form action="https://formspree.io/f/mnqowqjg" method="post">
+
+          <div class="row">
+            <div class="input-field col s8">
+              <i class="material-icons prefix">person</i>
+              <input name="name" id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s8">
+              <i class="material-icons prefix">mail</i>
+              <input name="_replyto" id="email" type="email" class="validate">
+              <label for="email">Correo</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s8">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Tu mensaje</label>
+              </div>
+          </div>
+
+          <div class="row center">
+            <button class="green btn waves-effect waves-light" type="submit">Enviar
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+
+        </form>
+      </div>
+
     </div>
   </div>
 </div>
