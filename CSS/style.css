@@ -14,22 +14,68 @@
      text-align: center;
  }
 
+body{
+  background-color: #141414;
+  color: #ededed;
+  font-family: 'Jura', sans-serif;
+  font-size: Bold;
+}
+
+#Iconos{
+  padding-top: 15px;
+  height: auto;
+  width:  32px;
+}
+
+#TituloYe{
+  font-family: 'Orbitron', sans-serif;
+  font-size: Bold;
+  color: #F2C200;
+  text-align: left;
+}
+
+#TituloRe{
+  font-family: 'Orbitron', sans-serif;
+  font-size: Bold;
+  color: #FF0044;
+  text-align: right;
+}
+
+#TituloReL{
+  font-family: 'Orbitron', sans-serif;
+  font-size: Bold;
+  color: #FF0044;
+  text-align: left;
+}
+
+#Titulo{
+  font-family: 'Orbitron', sans-serif;
+  font-size: Bold;
+}
 
  #Banner{
-   background-color: #f1f1f1;
+   background-color: #141414;
+   font-family: 'Orbitron', sans-serif;
+   font-size: Bold;
  }
 
  #logo{
+   padding-top: 15px;
    height: auto;
-   width:  64px;
+   width:  245px;
  }
 
- a.impact {
-   font-family: Impact, Charcoal, sans-serif;
-   font-size: 38px;
-   text-align: right;
- }
+#Dere{
+  text-align: right;
+}
 
+#Izq{
+  text-align: left;
+}
+
+#Intro{
+  background-color: ##5F0076;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -41,7 +87,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #ffff;
 }
 
 .parallax-container {
@@ -78,5 +124,6 @@ p {
 }
 
 footer.page-footer {
+
   margin: 0;
 }
